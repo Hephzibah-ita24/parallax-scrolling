@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>parallax scrolling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="./style.css">
+  </head>
+
+  <body>
+    <div class="container">
+<div class="background">
+  <h1>UNITED KINGDOM</h1>
+<div class="item sky" data-s="-.2"></div>
+<div class="item hills" data-s=".2"></div>
+
+</div>
+<div class="content">
+  <div class="text">
+          <p>The “City of London” is a tiny square mile with its own mayor and police force, separate from the larger Greater London around it.</p>
+          <p>Legend says that if the ravens ever leave the Tower of London, the kingdom will fall, so they’re kept there and well looked after.</p>
+          <p>The UK is made up of England, Scotland, Wales, and Northern Ireland, each with its own distinct identity, and in sports they often compete separately.</p>
+      <p>“Big Ben” is actually the nickname of the bell. The tower is called the Elizabeth Tower. </p>
+</div>
+    <img class="rock-1 rocks" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP4sTtsRDHs8rfZ7ibXzrDd7udBFvD1rlgRTWdFefJcw&s=10" alt="phone-booth"/>
+    <img class="rock-2 rocks" src="https://i.pinimg.com/1200x/d5/68/bb/d568bbd4da0c92fc644bb0bc1ab62c11.jpg" alt="big-ben"/>
+    <img class="rock-6 rocks" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwPCYfqrbKwcLESfBso1rSr9FU-2H5CPOxDJbFnmSZZg&s=10" alt="london-eye"/>
+     <img class="rock-4 rocks" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkOKgTTsVwRo_V5nOmY4It6SmBff6wIuCjyqZ7BFNuqg&s=10" alt="flag"/>
+     <img class="rock-5 rocks" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTh2x-w3OZAINekhSeM7Xwm8FGNmyDCdrffeiAL99gNw&s=10" alt="soldiers"/>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="raven" viewBox="0 0 60 30"><path d="M0 15Q15 0 30 14Q45 0 60 15Q45 10 30 24Q15 10 0 15z"/></symbol>
+</svg>
+<svg class="item raven" style="left:60%;top:8%" data-s=".2" data-x="-.5"><use href="#raven"/></svg>
+<svg class="item raven" style="left:85%;top:40%;width:50px" data-s=".35" data-x="-.8"><use href="#raven"/></svg>
+<svg class="item raven" style="left:95%;top:70%;width:90px" data-s=".5" data-x="-1"><use href="#raven"/></svg> 
+    
+    <div class="rock"></div>
+ </div>
+
+</div>
+
+
+
+
+    <script src="./script.js"></script>
+  </body>
+
+</html>
